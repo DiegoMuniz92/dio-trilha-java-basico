@@ -6,6 +6,7 @@ public class ContaTerminal {
         //Criando o objeto scanner
         Scanner input = new Scanner(System.in);
 
+        
         System.out.println("Bem Vindo ao Banco Santander Digital");
         System.out.println(" ");
 
