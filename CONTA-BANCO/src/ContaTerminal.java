@@ -6,8 +6,9 @@ public class ContaTerminal {
         //Criando o objeto scanner
         Scanner input = new Scanner(System.in).useLocale(Locale.US);
 
-
+        System.out.println("------------------------------------");
         System.out.println("Bem Vindo ao Banco Santander Digital");
+        System.out.println("------------------------------------");
         System.out.println(" ");
 
         System.out.print("Por favor informe o seu nome: ");
