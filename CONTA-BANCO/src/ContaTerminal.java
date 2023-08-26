@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class ContaTerminal {
     public static void main(String[] args) {
         //Criando o objeto scanner
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in).useLocale(Locale.US);
 
-        
+
         System.out.println("Bem Vindo ao Banco Santander Digital");
         System.out.println(" ");
 
