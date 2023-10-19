@@ -1,10 +1,11 @@
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
 public class AboutMe {
     public static void main(String[] args) {
-        //criando o objeto scanner
         try {
+            //criando o objeto scanner        
             Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
             
             System.out.println("Digite seu nome");
@@ -24,7 +25,8 @@ public class AboutMe {
             System.out.println("Minha altura é " + altura + "cm ");
             scanner.close();
         }
-        catch (inputMismatchException e) {
-            System.out.println ("Os campos idade e altura precisam ser numericos.")
+        catch (InputMismatchException e){
+            System.out.println("O campo de idade precisa ser numerico e o campo de altura precisa ser com o ponto final no lugar da vírgula!");
         }
-    }
+    }   
+}
