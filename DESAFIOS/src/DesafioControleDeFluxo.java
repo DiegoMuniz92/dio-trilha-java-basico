@@ -17,11 +17,11 @@ public class DesafioControleDeFluxo {
 
     static void conta (int parametroUm, int parametroDois) throws ParametrosInvalidosExceptions {
         int contar = parametroDois - parametroUm;
-        int contador = 0;
+        int contador = 1;
 
         if (parametroDois > parametroUm) {
-           while (contador < contar) {
-            System.out.println(contador+1);
+           while (contador <= contar) {
+            System.out.println("Imprimindo o número: " + contador);
             contador++;
             } 
         } else {
